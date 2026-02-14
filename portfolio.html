@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="ITS A STUDENT PORTFOLIO WEBSITE USING HTML AND CSS">
+    <meta keywords="portfolio html css">
+    <title>STUDENT-PORTFOLIO</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: black;
+            height:66px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* flex-wrap:nowrap; */
+        }
+        .container{
+            color:white;
+            /* padding:20px; */
+            font-size: 1rem;
+            display: flex;
+            flex-direction: row;  
+            /* flex-wrap:initial;           */
+        }
+        h2,h3{
+            padding:20px 10px;
+        }
+        ul{
+            padding:20px 0px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        li{
+            list-style-type: none;
+            display:inline;
+            padding:0 10px;
+            font-size: 1rem;  
+        }
+        main{
+            background-color: rgb(151, 229, 229);
+            height:40vh;
+            
+        }
+       .home{
+            color: white; 
+            padding-top: 30px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            padding-right: 10px;
+            display: flex;
+            flex-direction: column;
+
+       }
+        #home{
+            color: black;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            padding-right: 10px;
+        }
+        .about{
+            background-color: bisque;
+            color: rgb(5, 5, 51);
+            height:6vh;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            
+        }
+        .image{
+            display: flex;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2>Satvika Golthi</h2>  
+            <h3>Aspiring Software Engineer</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">AboutMe</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home">
+            <h1>Hi, I'm Satvika Golthi</h1>
+            <h4>Aspiring Software Developer</h4>
+        </section>
+        <section id="home">
+            <p>I'm a computer science student Passionate about web development, 
+                UI/UX design, and creating impactful digital experiences</p><br>
+            <button>View My Work</button>
+            <button>Download Resume</button>
+        </section>
+        <article>
+        <div class="about">
+            <h1>About Me</h1>
+        </div>
+        <div class="image">
+            <img src="photo.jpg" alt="photo" height="250px" width="500px">
+        </div>
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactPage</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+        .contact{
+            /* height: 750px; */
+            
+            color: white;
+            padding-left: 80px;
+            padding-top: 15px;
+            font-size: 1.4rem;
+        }
+        .logo{
+            display: flex;
+        }
+        #t1{
+            padding:5px 50px;
+        }
+        #e1{
+            padding:5px 50px;
+        }
+ 
+    </style>
+</head>
+<body>
+    <main>
+        <section class="contact">
+            <h1>ContactMe</h1>
+            
+            <div id="mail">
+            <img src="mail.png" alt="mail" height="100px"><br>gsatvika03@gmail.com
+            </div>
+            <br>
+            <button id="btn1"><a href="Resume__A.pdf">Download CV</a></button><br>
+            <div class="logo">
+            <a href="https://www.linkedin.com/in/satvika-golthi"><img src="link.png" height="130px" target="_blank"></a>
+            <a href="https://www.github.com"><img src="git.png" alt="github" height="140px"></a>
+            <img src="mail.png" alt="mail" height="150px"><br>
+            </div> <br>           
+            <h4>Enter Your Details:</h4><br>
+            <!-- <button id="t1">Enter Your Name</button><br><br>
+            <button id="e1">Enter Your Mail</button><br><br>
+            <button id="t2">Enter Your Message</button><br><br> -->
+            <form>
+                <input type="text" name="name" id="t1" placeholder="Your Name"><br><br>
+                <input type="email" name="email" id="e1" placeholder="Your Email"><br><br>
+                <textarea name="message" rows="10" cols="40" placeholder="Your Message"></textarea><br>
+                <button type="submit">Sumbit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
