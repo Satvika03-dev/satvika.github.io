@@ -194,7 +194,7 @@ footer{
         border:2px solid black;
     }
     .about{
-    height: 350px;
+    height: 400px;
     width:600px;
     background-color: #FFFBEB;
     color: #78350F;
@@ -215,7 +215,7 @@ footer{
         border:2px solid black;
     }
     .skills{
-    height: 550px;
+    height: 600px;
     width: 600px;
     background-color: black;
     color: white;
@@ -291,4 +291,5 @@ footer{
         justify-content: center;
     }
 }
+
 
